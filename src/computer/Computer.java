@@ -15,7 +15,7 @@ public class Computer {
     private JButton mButton;
     private JButton startButton;
     private JButton lastButton1;
-    private JButton button8;
+    private JButton opExpButton;
     private JPanel computer;
     private JTextField inputTextField;
     private JTextField outputTextField;
@@ -25,7 +25,7 @@ public class Computer {
     private JButton nextButton;
 
     public Computer() {
-        button8.addActionListener(new ActionListener() {
+        opExpButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 show_Result();
