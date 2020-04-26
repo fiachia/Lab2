@@ -9,17 +9,20 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Computer {
-    private JButton ACButton1;
+    private JButton quitButton;
     private JButton cButton;
     private JButton mButton2;
-    private JButton mButton3;
-    private JButton mButton1;
-    private JButton lastButton;
-    private JButton quitButton;
+    private JButton mButton;
+    private JButton startButton;
+    private JButton lastButton1;
     private JButton button8;
     private JPanel computer;
     private JTextField inputTextField;
     private JTextField outputTextField;
+    private JButton ACButton;
+    private JButton mButton3;
+    private JButton finalButton1;
+    private JButton nextButton;
 
     public Computer() {
         button8.addActionListener(new ActionListener() {
