@@ -78,7 +78,9 @@
             <preferred-size width="150" height="-1"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <editable value="false"/>
+        </properties>
       </component>
       <component id="c3103" class="javax.swing.JButton" binding="ACButton1" default-binding="true">
         <constraints>
