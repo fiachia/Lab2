@@ -40,7 +40,7 @@
           <text value="Start"/>
         </properties>
       </component>
-      <component id="1e514" class="javax.swing.JButton" binding="lastButton1" default-binding="true">
+      <component id="1e514" class="javax.swing.JButton" binding="lastButton">
         <constraints>
           <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
@@ -98,7 +98,7 @@
           <text value="M+"/>
         </properties>
       </component>
-      <component id="3b8f1" class="javax.swing.JButton" binding="finalButton1" default-binding="true">
+      <component id="3b8f1" class="javax.swing.JButton" binding="finalButton">
         <constraints>
           <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
