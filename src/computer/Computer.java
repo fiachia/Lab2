@@ -224,7 +224,10 @@ public class Computer {
     private double opExp_Mult_Div(String input) {
         //计算乘除    a*b*c/d/e
         String[] input0 = input.split("[*/]");
-        String[] input1 = input.split("[1-9]\\d+|[0-9]|\\.");
+        String[] input1 = input.split("-?[0-9]+(\\.[0-9]+)?");
+        if (input1.length == 0) {
+            return Double.parseDouble(input0[0]);
+        }
         double sum = Double.parseDouble(input0[0]);
         for (int i = 1; i < input1.length; i++) {
             if (input1[i].equals("*")) {
