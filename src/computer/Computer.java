@@ -1,6 +1,7 @@
 package computer;
 
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 import java.util.regex.Matcher;
@@ -86,6 +87,8 @@ public class Computer {
         JFrame frame = new JFrame("Computer");
         frame.setContentPane(new Computer().computer);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setSize(600,500);
+        frame.setPreferredSize(new Dimension(600,500));
         frame.pack();
         frame.setVisible(true);
     }
