@@ -201,7 +201,7 @@ public class Computer {
         return op_Exp(input);
     }
     private double op_Exp(String input) {//无括号运算，上限200目前
-        //先根据加减划分表达式，分成n和n-1两个列表
+        //先根据加减划分表达式，分成乘法表达式和符号两个列表
         //计算每个n的值
         //将每个n的值运算
         String[] input0 = input.split("[-+]");
